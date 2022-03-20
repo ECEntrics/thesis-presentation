@@ -1,4 +1,5 @@
 \documentclass{beamer}
+% \documentclass[class=beamer, crop=false, notes]{standalone}
 
 \input{misc/packages}
 \input{misc/title-page}
@@ -12,16 +13,22 @@
 	\tableofcontents
 \end{frame}
 
-\input{slides/1.problem-definition}
-\input{slides/2.thesis-goal}
-\input{slides/3.application-overview}
-\input{slides/4.technology-stack}
-\input{slides/5.ethereum}
-\input{slides/6.ipfs}
-\input{slides/7.dev-env-architecture}
-\input{slides/8.implementation-methods-specifications}
-\input{slides/9.concordia-features}
+\note{
+	Αρχικά θα παρουσιάσουμε τα προβλήματα της σύγχρονης διαδικτυακής επικοινωνίας και θα ορίσουμε τους στόχους της εργασίας. Έπειτα, θα παρουσιάσουμε την προτεινόμενη λύση, την υλοποίηση αυτής και τη διαδικασία ανάπτυξης. Τέλος, θα μιλήσουμε για τις γνώσεις που αποκτήσαμε από τη δουλειά αυτή και θα αναφέρουμε ανοιχτά θέματα.
+}
+
+\input{slides/01.problem-definition}
+\input{slides/02.thesis-goal}
+\input{slides/03.technology-stack}
+\input{slides/04.blockchain}
+\input{slides/05.ethereum}
+\input{slides/06.ipfs}
+\input{slides/07.dev-env-architecture}
+\input{slides/08-1.implementation-methods-specifications}
+\input{slides/08-2.implementation-methods-specifications}
+\input{slides/09.concordia-features}
 \input{slides/10.conclusions}
 \input{slides/11.open-areas}
+\input{slides/12.questions}
 
 \end{document}
